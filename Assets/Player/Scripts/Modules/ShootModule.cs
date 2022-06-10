@@ -23,6 +23,11 @@ public class ShootModule : MonoBehaviour, IModules
         }
     }
 
+    public void SetTriggerInput(string _input)
+    {
+        triggerInput = _input;
+    }
+
     public void TriggerModule(string Input)
     {
         if (Input != TriggerInput) { return; }
@@ -32,6 +37,7 @@ public class ShootModule : MonoBehaviour, IModules
         newBullet.transform.position = transform.position + (newBullet.transform.rotation * spawnOffset);
         newBullet.GetComponent<Rigidbody2D>().velocity = transform.rotation * Vector2.right * bulletSpeed;
         newBullet.SetActive(true);
+        Destroy(newBullet, 5);
         AudioManager.PlaySound("Player_Shoot");
     }
 }

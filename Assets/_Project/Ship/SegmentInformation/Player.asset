@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78da568ac736c644aa5dc15ba24a7efa, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  Empty: {fileID: 751296483351487986, guid: 9ddb3e84d84a6174cb58eb5ae446d804, type: 3}
+  Blaster: {fileID: 8692230532803003844, guid: 8810d74561af64541810a0c1db4b1a5c, type: 3}
+  Booster: {fileID: 3798361248746887598, guid: 56e69bdf4d6b97543959c91cbf04856b, type: 3}
+  Shield: {fileID: 2399812511019021441, guid: 6e24df733efb31a4998e4fa977239c52, type: 3}

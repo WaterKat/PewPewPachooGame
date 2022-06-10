@@ -19,14 +19,19 @@ public class ActivateModules : MonoBehaviour
     private string inputTriggerD = "Fire4";
     */
 
-    private void Start()
+    private void OnEnable()
     {
-        modules = GetComponentsInChildren<IModules>();
+        UpdateModules();
         Debug.Log("Modules Found!: " + modules.Length);
     }
 
     private float lastTriggeredA = 0;
     private float rateOfFireTriggerA = 0.125f;
+
+    private void UpdateModules()
+    {
+        modules = GetComponentsInChildren<IModules>();
+    }
 
     private void Update()
     {

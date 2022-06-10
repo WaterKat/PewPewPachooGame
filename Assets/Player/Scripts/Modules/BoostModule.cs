@@ -29,6 +29,10 @@ public class BoostModule : MonoBehaviour, IModules
         }
     }
 
+    public void SetTriggerInput(string _input)
+    {
+        triggerInput = _input;
+    }
 
     [SerializeField]
     private GameObject DisplayObject;
