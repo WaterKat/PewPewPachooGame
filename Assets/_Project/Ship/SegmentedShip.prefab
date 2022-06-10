@@ -381,8 +381,8 @@ GameObject:
   - component: {fileID: 9117733402639398989}
   - component: {fileID: 1345754602412885634}
   - component: {fileID: 3944795063462596601}
-  - component: {fileID: 4328650766583035831}
-  - component: {fileID: 1109980082042839623}
+  - component: {fileID: 4897446597999605295}
+  - component: {fileID: 2150907486910893508}
   - component: {fileID: 1109980082042839622}
   m_Layer: 8
   m_Name: SegmentedShip
@@ -468,7 +468,7 @@ MonoBehaviour:
   frontRightContainer: {fileID: 2419471322320306834}
   backLeftContainer: {fileID: 6732071143217307167}
   backRightContainer: {fileID: 2836339763672679575}
---- !u!114 &4328650766583035831
+--- !u!114 &4897446597999605295
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -477,14 +477,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 4117108193840463282}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ed9407d57799824fae4c70c56bdfb94, type: 3}
+  m_Script: {fileID: 11500000, guid: cc1634ccdc9b762408c83d49de071e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MaxVelocity: 15
   Acceleration: 40
   inputBrakeThreshold: 0.8
   brakeThreshold: 1
---- !u!114 &1109980082042839623
+--- !u!114 &2150907486910893508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -493,7 +493,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4117108193840463282}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 432b9fbdb736d264b956ae6d582a8ccb, type: 3}
+  m_Script: {fileID: 11500000, guid: d3e4f816a16aa0642a638dd3ae1833de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentInput: 0

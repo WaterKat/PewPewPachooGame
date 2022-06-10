@@ -41,6 +41,8 @@ namespace WaterKatLLC.Ships
             AssignPrefabtoContainer(frontRightContainer, segmentInfo.GetPrefabInstance(ship.frontRight));
             AssignPrefabtoContainer(backLeftContainer, segmentInfo.GetPrefabInstance(ship.backLeft));
             AssignPrefabtoContainer(backRightContainer, segmentInfo.GetPrefabInstance(ship.backRight));
+
+            SendMessage("OnShipLoad", SendMessageOptions.DontRequireReceiver);
         }
 
         private void AssignPrefabtoContainer(GameObject _container,GameObject _prefabInstance)
