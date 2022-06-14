@@ -22,7 +22,7 @@ public class ActivateModules : MonoBehaviour
     private void OnEnable()
     {
         UpdateModules();
-        Debug.Log("Modules Found!: " + modules.Length);
+        //Debug.Log("Modules Found!: " + modules.Length);
     }
 
     private float lastTriggeredA = 0;
